@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { Server2Component } from './server2/server2.component';
 import { MyDirectivesComponent } from './my-directives/my-directives.component';
 import { DynamicStyleComponent } from './dynamic-style/dynamic-style.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Server2Component,
     MyDirectivesComponent,
-    DynamicStyleComponent
+    DynamicStyleComponent,
+    DataBindingComponent
   ],
   imports: [
     BrowserModule,
