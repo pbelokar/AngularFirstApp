@@ -8,6 +8,7 @@ import { MyDirectivesComponent } from './my-directives/my-directives.component';
 import { DynamicStyleComponent } from './dynamic-style/dynamic-style.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { Angular7PipeComponent } from './angular7-pipe/angular7-pipe.component';
+import { Angular7FormsComponent } from './angular7-forms/angular7-forms.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Angular7PipeComponent } from './angular7-pipe/angular7-pipe.component';
     MyDirectivesComponent,
     DynamicStyleComponent,
     DataBindingComponent,
-    Angular7PipeComponent
+    Angular7PipeComponent,
+    Angular7FormsComponent
   ],
   imports: [
     BrowserModule,
