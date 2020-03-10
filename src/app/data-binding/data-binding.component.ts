@@ -8,8 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class DataBindingComponent implements OnInit {
 
   isDisabled: boolean = true;
-  
-  constructor() { }
+
+  constructor() {
+    setTimeout(() => {
+      this.isDisabled = false;
+    }, 5000);
+  }
 
   ngOnInit(): void {
   }
