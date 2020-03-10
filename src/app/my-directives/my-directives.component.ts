@@ -30,5 +30,8 @@ export class MyDirectivesComponent implements OnInit {
   OnUpdateServerName(event:Event) {
     this.serverName = (<HTMLInputElement>event.target).value;
   }
+  OnDeleteServer() {
+    this.serverCreated = false;
+  }
 
 }
