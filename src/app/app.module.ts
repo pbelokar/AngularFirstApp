@@ -7,6 +7,7 @@ import { Server2Component } from './server2/server2.component';
 import { MyDirectivesComponent } from './my-directives/my-directives.component';
 import { DynamicStyleComponent } from './dynamic-style/dynamic-style.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
+import { Angular7PipeComponent } from './angular7-pipe/angular7-pipe.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
     Server2Component,
     MyDirectivesComponent,
     DynamicStyleComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    Angular7PipeComponent
   ],
   imports: [
     BrowserModule,
